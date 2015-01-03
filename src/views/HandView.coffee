@@ -12,8 +12,4 @@ class window.HandView extends Backbone.View
     @$el.html @template @collection
     @$el.append @collection.map (card) ->
       new CardView(model: card).$el
-    ## currently always taking the first score. build
-    if @collection.scores()[1] >= 17 and @collection.scores()[1] <= 21
-      @$('.score').text @collection.scores()[1]
-    else
-      @$('.score').text @collection.scores()[0]
+    @$('.score').text @collection.optimalScore()
