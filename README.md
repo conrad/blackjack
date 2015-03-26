@@ -1,2 +1,2 @@
 #blackjack
-This is a project I completed as a student at [Hack Reactor](http://hackreactor.com). This project was worked on with a pair.
+This is a project I completed with Rob Ing as a student at [Hack Reactor](http://hackreactor.com). We used Backbone.js, CoffeeScript, jQuery, and Underscore. For testing suites, we had Mocha.js and Chai.js
